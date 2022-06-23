@@ -1,0 +1,17 @@
+<template>
+  <section>
+    <h1>Error 404</h1>
+    <nuxt-link to="/">Home</nuxt-link>
+  </section>
+</template>
+<style scoped>
+section {
+  width: 30rem;
+  margin: 0 auto;
+  padding-top: 10rem ;
+}
+h1 {
+  color: #da0404;
+}
+
+</style>
