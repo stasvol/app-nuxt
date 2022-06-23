@@ -3,7 +3,7 @@
     <h1>{{ pageTitle }}</h1>
     <ul>
       <li v-for="user in users"  :key="user.id">
-        <a @click.prevent="openUser(user)" href="#">{{ user.name }} <p>Phone: {{user.phone}} </p> </a>
+        <a @click.prevent="openUser(user)" href="#">{{ user.name }} <p>City: {{user.address.city}} </p> </a>
       </li>
 
     </ul>

@@ -1,10 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand " href="#">Nuxt SSR</a>
-      <div class="collapse navbar-collapse" >
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="#">NUXT SSR</a>
+      <div class="collapse navbar-collapse bg-light " >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item ">
             <nuxt-link no-prefetch exact to="/" class="nav-link " active-class="active">
               Home
             </nuxt-link>

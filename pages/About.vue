@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  // middleware: ['empty']
+  middleware: ['empty']
 
 }
 </script>

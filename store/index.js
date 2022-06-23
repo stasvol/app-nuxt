@@ -12,7 +12,7 @@ export const mutations = {
 }
 
 export const actions = {
-  nuxtServerInit({}) {
+  nuxtServerInit({dispatch}) {
     console.log("nuxtServerInit")
   },
   async login({commit}) {
@@ -25,5 +25,4 @@ export const actions = {
 
 export const getters = {
   hasToken: state => !!state.token
-
 }
